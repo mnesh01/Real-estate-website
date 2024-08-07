@@ -303,3 +303,376 @@ header ul.is-sticky li a.active {
     margin: 2rem auto 0;
     width: 350px;
 }
+#agents {
+    margin: 4rem 0 6rem;
+    padding: 0 0 6rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#agents p.large-paragraph {
+    width: 50%;
+    margin-bottom: 4rem;
+}
+
+#agents.flex{
+    flex-wrap: wrap;
+    padding: 0;
+}
+#agents .card {
+    width: 32%;
+    background: #f0f0f0;
+    margin-bottom: 2rem;
+}
+#agents.card img{
+    width: 100%;
+}
+#agents .card h3 {
+    font-family: "Playfair Display", serif;
+    color: #000;
+}
+
+#agents .card h3,
+#agents .card p {
+    padding-left: 1rem;
+}
+/* end: agents styles */
+
+/* best real estate company*/
+#the-best {
+    margin: 2rem 0;
+}
+
+#the-best .flex > img {
+    width: 47%;
+}
+
+#the-best .flex > div {
+    width: 40%;
+}
+
+#the-best ul {
+    padding-left: 20px;
+    margin-bottom: 4rem;
+}
+
+#the-best ul li {
+    margin: 10px 0;
+}
+/* end: best real estate company styles */
+
+/* services section */
+#services{
+    background: #f8f9fa;
+    padding: 6rem 0;
+    margin: 8rem 0;
+    border-bottom: 1px solid #dee2e6;
+}
+#services h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#services .flex {
+    flex-wrap: wrap;
+}
+
+#services .flex > div {
+    width: 30%;
+    margin-bottom: 2rem;
+}
+#services .flex {
+    flex-wrap: wrap;
+}
+
+#services .flex > div {
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+#services .flex > div .fas {
+    color: #f69314;
+    font-size: 40px;
+    float: left;
+    margin-top: 15px;
+    width: 20%;
+    text-align: center;
+}
+#services .flex > div .services-card-right {
+    float: right;
+    width: 75%;
+}
+
+#services .flex > div a {
+    color: #f69314;
+    text-decoration: none;
+}
+
+#services .flex > div a:hover {
+    text-decoration: underline;
+}
+
+/* Testimonials */
+#testiomonials{
+    margin-bottom: 8rem;
+
+}
+#testimonials h2{
+    text-align: center;
+}
+#testimonials-slider .slick-slide {
+    text-align: center;
+}
+
+#testimonials-slider blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 1rem auto 3rem;
+    max-width: 740px;
+}
+#testimonials-slider .testimonials-caption {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#testimonials-slider .testimonials-caption img {
+    float: left;
+    border-radius: 30px;
+    width: 60px;
+}
+.testimonials-caption p {
+    position: relative;
+    top: 13px;
+    font-size: 1.2rem;
+}
+#testimonials-slider .slick-arrow {
+    text-decoration: none;
+    position: absolute;
+    font-size: 40px;
+    color: #222;
+    top: 50%;
+    margin-top: -35px;
+    z-index: 1;
+}
+#testimonials-slider .slick-next {
+    right: 0;
+}
+
+/* Contact us section */
+#contact {
+    background: #f8f9fa;
+    padding: 4rem 0 8rem;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#form-container {
+    width: 58%;
+    background: #fff;
+    padding: 3rem;
+    box-sizing: border-box;
+    height: 0%;
+}
+#form-container h3 {
+    color: #000;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 2rem;
+}
+#form-container label {
+    display: block;
+    color: #000;
+    margin-top: 1rem;
+}
+#form-container input,
+#form-container textarea {
+    display: block;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    box-sizing: border-box;
+    height: 43px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 1rem;
+    color: #495057;
+}
+#form-container textarea {
+    height: 170px;
+    margin-bottom: 2rem;
+    resize: none;
+}
+#address-container {
+    width: 38%;
+    background: #fff;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    height: 0%;
+}
+#address-container label {
+    font-weight: 700;
+    display: block;
+    margin-top: 2rem;
+}
+#address-container label:first-child {
+    margin-top: 0;
+}
+#address-container address {
+    margin-bottom: 1.5rem;
+    font-style: normal;
+}
+
+#address-container a {
+    text-decoration: none;
+    color: #f69314;
+}
+
+#address-container a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    padding: 8rem 0;
+}
+
+footer .flex {
+    padding-bottom: 6rem;
+    border-bottom: 1px solid #777;
+}
+footer h5 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+footer h5.follow-us {
+    margin-top: 1rem;
+}
+footer .footer-about {
+    width: 47%;
+}
+
+footer .footer-about p {
+    width: 65%;
+}
+footer .footer-quick-links {
+    width: 16%;
+}
+
+footer .footer-quick-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer .footer-quick-links ul li {
+    margin: 10px 0;
+}
+
+footer .footer-quick-links ul li a {
+    color: #777;
+    text-decoration: none;
+}
+footer .footer-quick-links ul li a:hover {
+    color: #fff;
+}
+
+footer .footer-subscribe {
+    width: 35%;
+}
+#subscribe-container {
+    position: relative;
+}
+footer .footer-subscribe input {
+    border-radius: 30px;
+    height: 43px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    border: 1px solid #6c757d;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    width: 80%;
+}
+footer button.right-rounded {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #f69314;
+    font-size: 16px;
+    color: #000;
+    padding: 10px 30px 9px;
+    line-height: 1.5;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+footer button.right-rounded:hover {
+    background: #fff;
+}
+
+footer .footer-subscribe ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-subscribe ul li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+footer .footer-subscribe ul li:first-child {
+    margin-left: 0;
+}
+
+footer .footer-subscribe ul li a {
+    text-decoration: none;
+    color: #777;
+}
+
+footer .footer-subscribe ul li a:hover {
+    color: #fff;
+}
+footer small{
+    margin-top: 3rem;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+}
+footer small a {
+    color: #777;
+    text-decoration: none;
+}
+
+footer small a:hover {
+    color: #fff;
+}
+
+/* start media queries */
+@media (max-width: 991px){
+    #logo {
+        top: 1px;
+    }
+
+    #nav-toggle {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        background: #fff;
+        right: -100%;
+        top: 0;
+        margin: 0;
+        padding: 2rem;
+        height: 100%;
+        width: 300px;
+        box-sizing: border-box;
+        box-shadow: 5px 0 10px 3px #999;
+    }
+
+}
+
