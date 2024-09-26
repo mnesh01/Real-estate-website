@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
 
-/* start global styles */
+/* start: global styles */
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
     margin: 0;
     padding: 0;
     font-size: 1rem;
@@ -18,23 +18,25 @@ body {
 *:not(.slick-track):not(.slick-list) {
     transition: 0.4s;
 }
-.container{
+
+.container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
 }
-h1, h2, h3, h4, h5{
+
+h1, h2, h3, h4, h5 {
     margin: 0;
     padding: 0;
 }
 
 h1, h2 {
-    font-family: "Fairplay Display", serif ;
+    font-family: "Playfair Display", serif;
     font-weight: 800;
 }
 
@@ -66,8 +68,12 @@ h5 {
     font-family: "Playfair Display", serif;
 }
 
-button.rounded{
-    background:#f69314;
+p {
+    margin: 0 0 1rem;
+}
+
+button.rounded {
+    background: #f69314;
     border: none;
     color: #fff;
     font-size: 16px;
@@ -77,7 +83,7 @@ button.rounded{
     cursor: pointer;
 }
 
-p.large-paragraph{
+p.large-paragraph {
     font-size: 1.25rem;
     font-weight: 300;
 }
@@ -108,6 +114,7 @@ header {
     position: relative;
     top: 4px;
 }
+
 .hamburger-menu {
     background-color: transparent;
     border: 1px solid #fff;
@@ -117,6 +124,14 @@ header {
     margin-top: 10px;
     display: none;
 }
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
 header ul {
     list-style-type: none;
 }
@@ -129,6 +144,7 @@ header ul li {
 #close-flyout {
     display: none;
 }
+
 header ul li a {
     color: #999;
     font-size: 16px;
@@ -161,6 +177,7 @@ header ul.is-sticky li a.active {
     height: 100%;
     width: 100%;
 }
+
 #hero .fade {
     position: absolute;
     width: 100%;
@@ -188,7 +205,9 @@ header ul.is-sticky li a.active {
     font-weight: 300;
     font-size: 1rem;
 }
+/* end: hero section styles */
 
+/* start: how it works styles */
 #how-it-works {
     padding: 3rem 0;
     background: #f8f9fa;
@@ -212,9 +231,6 @@ header ul.is-sticky li a.active {
     color: #f69314;
     font-size: 35px;
 }
-/* end: how it works styles */
-
-/* start: properties styles */
 /* end: how it works styles */
 
 /* start: properties styles */
@@ -303,6 +319,9 @@ header ul.is-sticky li a.active {
     margin: 2rem auto 0;
     width: 350px;
 }
+/* end: properties styles */
+
+/* start: agents styles */
 #agents {
     margin: 4rem 0 6rem;
     padding: 0 0 6rem;
@@ -314,18 +333,21 @@ header ul.is-sticky li a.active {
     margin-bottom: 4rem;
 }
 
-#agents.flex{
+#agents .flex {
     flex-wrap: wrap;
     padding: 0;
 }
+
 #agents .card {
     width: 32%;
     background: #f0f0f0;
     margin-bottom: 2rem;
 }
-#agents.card img{
+
+#agents .card img {
     width: 100%;
 }
+
 #agents .card h3 {
     font-family: "Playfair Display", serif;
     color: #000;
@@ -337,7 +359,7 @@ header ul.is-sticky li a.active {
 }
 /* end: agents styles */
 
-/* best real estate company*/
+/* start: best real estate company styles */
 #the-best {
     margin: 2rem 0;
 }
@@ -360,26 +382,19 @@ header ul.is-sticky li a.active {
 }
 /* end: best real estate company styles */
 
-/* services section */
-#services{
+/* start: services styles */
+#services {
     background: #f8f9fa;
     padding: 6rem 0;
     margin: 8rem 0;
     border-bottom: 1px solid #dee2e6;
 }
+
 #services h2 {
     text-align: center;
     margin-bottom: 3rem;
 }
 
-#services .flex {
-    flex-wrap: wrap;
-}
-
-#services .flex > div {
-    width: 30%;
-    margin-bottom: 2rem;
-}
 #services .flex {
     flex-wrap: wrap;
 }
@@ -397,6 +412,7 @@ header ul.is-sticky li a.active {
     width: 20%;
     text-align: center;
 }
+
 #services .flex > div .services-card-right {
     float: right;
     width: 75%;
@@ -410,15 +426,17 @@ header ul.is-sticky li a.active {
 #services .flex > div a:hover {
     text-decoration: underline;
 }
+/* end: services styles */
 
-/* Testimonials */
-#testiomonials{
+/* start: testimonials styles */
+#testimonials {
     margin-bottom: 8rem;
-
 }
-#testimonials h2{
+
+#testimonials h2 {
     text-align: center;
 }
+
 #testimonials-slider .slick-slide {
     text-align: center;
 }
@@ -429,6 +447,7 @@ header ul.is-sticky li a.active {
     margin: 1rem auto 3rem;
     max-width: 740px;
 }
+
 #testimonials-slider .testimonials-caption {
     width: 200px;
     margin: 0 auto;
@@ -439,11 +458,13 @@ header ul.is-sticky li a.active {
     border-radius: 30px;
     width: 60px;
 }
+
 .testimonials-caption p {
     position: relative;
     top: 13px;
     font-size: 1.2rem;
 }
+
 #testimonials-slider .slick-arrow {
     text-decoration: none;
     position: absolute;
@@ -456,8 +477,9 @@ header ul.is-sticky li a.active {
 #testimonials-slider .slick-next {
     right: 0;
 }
+/* end: testimonials styles */
 
-/* Contact us section */
+/* start: contact us styles */
 #contact {
     background: #f8f9fa;
     padding: 4rem 0 8rem;
@@ -475,16 +497,19 @@ header ul.is-sticky li a.active {
     box-sizing: border-box;
     height: 0%;
 }
+
 #form-container h3 {
     color: #000;
     font-family: "Playfair Display", serif;
     margin-bottom: 2rem;
 }
+
 #form-container label {
     display: block;
     color: #000;
     margin-top: 1rem;
 }
+
 #form-container input,
 #form-container textarea {
     display: block;
@@ -498,11 +523,13 @@ header ul.is-sticky li a.active {
     font-size: 1rem;
     color: #495057;
 }
+
 #form-container textarea {
     height: 170px;
     margin-bottom: 2rem;
     resize: none;
 }
+
 #address-container {
     width: 38%;
     background: #fff;
@@ -510,14 +537,17 @@ header ul.is-sticky li a.active {
     box-sizing: border-box;
     height: 0%;
 }
+
 #address-container label {
     font-weight: 700;
     display: block;
     margin-top: 2rem;
 }
+
 #address-container label:first-child {
     margin-top: 0;
 }
+
 #address-container address {
     margin-bottom: 1.5rem;
     font-style: normal;
@@ -531,8 +561,9 @@ header ul.is-sticky li a.active {
 #address-container a:hover {
     text-decoration: underline;
 }
+/* end: contact us styles */
 
-/* Footer */
+/* start: footer styles */
 footer {
     background: #333;
     padding: 8rem 0;
@@ -542,6 +573,7 @@ footer .flex {
     padding-bottom: 6rem;
     border-bottom: 1px solid #777;
 }
+
 footer h5 {
     color: #fff;
     margin-bottom: 1rem;
@@ -551,6 +583,7 @@ footer h5 {
 footer h5.follow-us {
     margin-top: 1rem;
 }
+
 footer .footer-about {
     width: 47%;
 }
@@ -558,6 +591,7 @@ footer .footer-about {
 footer .footer-about p {
     width: 65%;
 }
+
 footer .footer-quick-links {
     width: 16%;
 }
@@ -567,6 +601,7 @@ footer .footer-quick-links ul {
     padding: 0;
     margin: 0;
 }
+
 footer .footer-quick-links ul li {
     margin: 10px 0;
 }
@@ -575,6 +610,7 @@ footer .footer-quick-links ul li a {
     color: #777;
     text-decoration: none;
 }
+
 footer .footer-quick-links ul li a:hover {
     color: #fff;
 }
@@ -582,9 +618,11 @@ footer .footer-quick-links ul li a:hover {
 footer .footer-subscribe {
     width: 35%;
 }
+
 #subscribe-container {
     position: relative;
 }
+
 footer .footer-subscribe input {
     border-radius: 30px;
     height: 43px;
@@ -597,6 +635,7 @@ footer .footer-subscribe input {
     box-sizing: border-box;
     width: 80%;
 }
+
 footer button.right-rounded {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -610,6 +649,7 @@ footer button.right-rounded {
     position: absolute;
     right: 0;
 }
+
 footer button.right-rounded:hover {
     background: #fff;
 }
@@ -637,12 +677,14 @@ footer .footer-subscribe ul li a {
 footer .footer-subscribe ul li a:hover {
     color: #fff;
 }
-footer small{
+
+footer small {
     margin-top: 3rem;
     font-size: 1rem;
     display: block;
     text-align: center;
 }
+
 footer small a {
     color: #777;
     text-decoration: none;
@@ -651,9 +693,10 @@ footer small a {
 footer small a:hover {
     color: #fff;
 }
+/* end: footer styles */
 
-/* start media queries */
-@media (max-width: 991px){
+/* start: media queries */
+@media (max-width: 991px) {
     #logo {
         top: 1px;
     }
@@ -661,6 +704,7 @@ footer small a:hover {
     #nav-toggle {
         display: block;
     }
+
     nav ul {
         position: fixed;
         background: #fff;
@@ -675,4 +719,3 @@ footer small a:hover {
     }
 
 }
-
